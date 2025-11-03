@@ -169,13 +169,13 @@ Vize (%40) ve final (%60) notlarına göre harf notu hesaplar.
 - **İş Mantığı:** Ortalama ≥ 50 VE final ≥ 45 ise "Geçti"
 - **Çıktı:** TEXT ("Geçti" veya "Kaldı")
 
-### 3. `fn_ogrenci_gno_hesapla(ogrenci_id)`
-Öğrencinin tüm aldığı derslerden GNO hesaplar (4.0 üzerinden)
-- **Çıktı:** NUMERIC (0.00 - 4.00 arası)
-
-### 4. `fn_ders_not_ortalamasi(ders_id)`
+### 3. `fn_ders_not_ortalamasi(ders_id)`
 Belirli bir dersin tüm öğrencilerinin not ortalamasını hesaplar.
 - **Çıktı:** NUMERIC (0-100 arası)
+
+### 4. `fn_ogrenci_gno_hesapla(ogrenci_id)`
+Öğrencinin tüm aldığı derslerden GNO hesaplar (4.0 üzerinden)
+- **Çıktı:** NUMERIC (0.00 - 4.00 arası)
 
 ---
 
@@ -363,6 +363,8 @@ CALL sp_not_girisi(1, 85.00, 90.00); -- kayit_id, vize, final
 Sedanur Bostancıoğlu
 
 ## Not
-Bitirme projesini yaparken Claude.ai aracından yardım aldım.
-Değerli öğretmenim Ömer Faruk Doğan'a eğitimde öğrettiği bilgiler için teşekkür ederim.
+
+- Bitirme projesini yaparken Claude.ai aracından yardım aldım.
+- Değerli öğretmenim Ömer Faruk Doğan'a eğitimde öğrettiği bilgiler için teşekkür ederim.
+
 ---
